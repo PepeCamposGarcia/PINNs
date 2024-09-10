@@ -1,4 +1,4 @@
-This project is a direct implementation in 'Pytorch' of 'Physics Informed Neural Networks', introduced by Raissi et al. ([2019](https://maziarraissi.github.io/PINNs/)). 
+This project is a direct implementation in 'Pytorch' of 'Physics Informed Neural Networks', introduced by Raissi et al. ([2019](https://maziarraissi.github.io/PINNs/)). PINN's are machine learning models based on neural networks which aim to reconstruct PDE and ODE solutions from limited data, usually given by the boundary and initial conditions imposed by the physical constraints of the problem, using the information encoded in the equations the model tries to solve. 
 
 Three main different problems are discussed: Burgers equation with boundary and initial conditions, 2D time-independent Navier Stokes equations (lid driven cavity flow), and direct and indirect problems associated with the 2D time-dependent Navier Stokes equations.
 
